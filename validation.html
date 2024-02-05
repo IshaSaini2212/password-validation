@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="validation.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    <h2>Validation Form </h2><br>
+    <form name="myform">
+
+
+        <div class="row">
+            <div class="column right_align"><label for="name_txt">Name:</label></div>
+            <div class="column"><input type="text" id="name_txt" name="name_txt" placeholder="Enter your name"/></div>
+        </div>
+
+        <div class="row">
+            <div class="column right_align"><label for="password_txt">Password:</label></div>
+            <div class="column"><input type="password" id="password_txt" name="password_txt" placeholder="Enter password"/></div>
+        </div>
+
+        <div class="row">
+            <div class="column right_align"><label for="email_txt">Email:</label></div>
+            <div class="column"><input type="email" id="email_txt" name="email_txt" placeholder="Enter your e-mail"/></div>
+        </div><br>
+
+        <div class="submit">
+            <button id ="submit" onclick="return validation()">Submit</button>
+        </div>
+        
+    </form>
+    </div>			
+    <script src="validation.js"></script>
+</body>
+</html>
+

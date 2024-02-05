@@ -1,0 +1,38 @@
+.container
+{
+    width:400px;
+    height:350px;
+    padding:20px;
+    box-shadow:#000000 2px 2px 2px 2px;
+    margin:auto;
+    margin-top: 80px;
+}
+h2{
+    text-align: center;
+}
+
+.row
+{
+	height:50px;
+}
+
+.column
+{
+    min-width:100px;
+	float:left;
+	padding-left:10px;
+}
+		
+.right_align
+{
+    text-align:right;
+}
+		
+.center_align
+{
+	text-align:center;
+}
+
+.submit{
+    text-align: center;
+}
